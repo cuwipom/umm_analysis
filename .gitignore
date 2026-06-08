@@ -1,0 +1,43 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Python build & caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+env/
+venv/
+ENV/
+
+# Secrets and local configurations
+.env
+.env.local
+.env.*
+
+# Local databases and pipeline run states
+scweet_state.db
+pipeline_output/corpus.db
+pipeline_output/llm_cache.json
+pipeline_output/dead_letter.json
+
+# Dataset files (exclude large files from Git)
+data/processed/*.csv
+data/raw/*.csv
+outputs/*.csv
+pipeline_output/bq_exports/*.csv
+
+# Keep directory structure but ignore files inside
+!data/processed/.gitkeep
+!data/raw/.gitkeep
+!outputs/.gitkeep
+!pipeline_output/bq_exports/.gitkeep

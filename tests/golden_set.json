@@ -1,0 +1,12 @@
+[
+  {
+    "_comment": "Golden set placeholder — manually label 30 tweets covering different scenarios",
+    "_instructions": [
+      "Copy real tweets from fix_data.csv and add expected labels",
+      "Cover: complaining, discovery, venting, seeking_recommendation",
+      "Cover: Indonesian text, English text, mixed",
+      "Cover: multi-cause, multi-barrier, no-brand, multi-brand",
+      "Cover: edge cases (emoji-only, very short, URL-heavy)"
+    ]
+  }
+]
