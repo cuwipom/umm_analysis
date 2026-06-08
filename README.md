@@ -16,7 +16,6 @@ Designed for **consumer insight analytics**, this project focuses on mapping con
 ### The Challenge
 Social media discussions are rich in organic consumer feedback, but the text is messy, filled with typos, emojis, and slang. Running direct LLM queries over large datasets to extract insights is slow, expensive, non-deterministic, and prone to API rate limits.
 
-### The Solution: "Transform Once, Query Forever"
 This pipeline decouples the **semantic parsing** stage from the **analytical** stage:
 1. **Extract and Clean:** Processes raw Twitter datasets and flags spam using heuristics.
 2. **LLM JSON Mode + Pydantic validation:** Standardizes unstructured text into a single-pass JSON payload ( Sentiment, Intent, Causes, Product Types, and Barriers).
