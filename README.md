@@ -161,8 +161,8 @@ The pipeline populates a normalized **6-table schema** inside SQLite (`corpus.db
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/cuwipom/hairfall-insights-text-analytics.git
-   cd hairfall-insights-text-analytics
+   git clone https://github.com/cuwipom/umm_analysis.git
+   cd umm_analysis
    ```
 
 2. **Install dependencies:**
