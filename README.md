@@ -5,7 +5,7 @@
 [![Database: SQLite / BigQuery](https://img.shields.io/badge/database-SQLite%20%2F%20BigQuery-orange.svg)]()
 [![LLM: DeepSeek / OpenAI API](https://img.shields.io/badge/LLM-DeepSeek%20%2F%20OpenAI-green.svg)]()
 
-A robust, cost-effective **ELT (Extract, Load, Transform)** data pipeline that crawls unstructured social media text (Twitter/X) and uses Large Language Models (LLMs) and local sentence transformers to generate a structured, semantic relational database. 
+**ELT (Extract, Load, Transform)** data pipeline that crawls unstructured social media text (Twitter/X) and uses Large Language Models (LLMs) and local sentence transformers to generate a structured, semantic relational database. 
 
 Designed for **consumer insight analytics**, this project focuses on mapping consumer barriers and triggers regarding hair loss and hair care treatment products.
 
